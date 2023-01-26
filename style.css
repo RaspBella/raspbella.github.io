@@ -63,3 +63,23 @@ li a:hover
     height: 25%;
     width: 25%;
 }
+
+.solves
+{
+    display: flexbox;
+}
+
+.solve
+{
+    background-color: rgb(161, 20, 255);
+    color: lightcoral;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    float: left;
+}
+
+.solve h4
+{
+    color: rgb(235, 90, 90);
+}
