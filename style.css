@@ -2,9 +2,15 @@ body
 {
     background-color: #B00B69;
     font-size: 30px;
+    color: #ee0cb5;
 }
 
-ul
+
+
+/* navigation */
+
+/* main */
+nav ul
 {
     width: 100%;
     list-style-type: none;
@@ -14,18 +20,18 @@ ul
     background-color: #333;
 }
 
-li
+nav li
 {
     float: left;
     border-right: 1px solid #bbb;
 }
 
-li:last-child
+nav li:last-child
 {
     border-right: none;
 }
 
-li a
+nav li a
 {
     display: block;
     color: white;
@@ -34,10 +40,36 @@ li a
     text-decoration: none;
 }
 
-li a:hover
+nav li a:hover
 {
     background-color: #111;
 }
+
+/* secondary */
+secondary
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+secondary nav ul
+{
+    background-color: cornflowerblue;
+}
+
+secondary nav li a
+{
+    color: blueviolet;
+}
+
+secondary nav li a:hover
+{
+    background-color: deepskyblue;
+}
+
+
 
 .wrapper
 {
