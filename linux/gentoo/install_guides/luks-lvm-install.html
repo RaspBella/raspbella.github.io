@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../../../style.css">
+        <title>RaspBella's website</title>
+    </head>
+    <body>
+        <h2>RaspBella's basic luks and lvm install guide for BIOS machines</h2>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="../../..">Home</a></li>
+                    <li><a href="../../../cubing.html">Cubing</a></li>
+                    <li><a href="../../../about_me.html">About</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <main>
+                <p style="font-size: 70px; text-align: center;">Stuff :3</p>
+            </main>
+        </section>
+        <section>
+            <secondary>
+                <nav>
+                    <ul>
+                        <li><a href="..">..</a></li>
+                        <li><a href="#net">Network setup</a></li>
+                        <li><a href="#disk">Disk setup</a></li>
+                    </ul>
+                </nav>
+            </secondary>
+        </section>
+        <section id="net">
+            <h2>Network setup</h2>
+            <p>First we will have to setup a network connection<br>
+            There are 2 main ways of accessing the internet;</p>
+            <button type="button" class="collapsible">Using Ethernet</button>
+            <div class="content">
+                <p>Hopefully just works with the cable plugged in</p>
+            </div>
+            <button type="button" class="collapsible">Using WIFI</button>
+            <div class="content">
+                <p>If you are in a GUI environment then you can simply connect to WIFI<br>
+                If you are gentoo's live non-GUI iso you can use net-setup command<br>
+                If you are using another distro then maybe try iwctl command<br>
+                Otherwise idk</p>
+            </div>
+            </ul>
+        </section>
+        <section id="disk">
+            <h2>Disk setup</h2>
+            <p>First you need to know the disk you want to install on<br>
+            Which could be named in the form of;</p>
+            <ul>
+                <li>/dev/sd&ltletter&gt</li>
+                <li>/dev/nvme&ltnumber&gtn&ltnumber&gt</li>
+                <li>/dev/mmcblk&ltnumber&gt</li>
+            </ul>
+        </section> 
+    </body>
+    <script src="../../../collapsible.js"></script> <!-- Include script for collapsible buttons -->
+</html>
