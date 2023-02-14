@@ -1,5 +1,6 @@
 body
 {
+    padding: 1em;
     background-color: #B00B69;
     font-size: 30px;
     color: #ee0cb5;
@@ -114,4 +115,39 @@ secondary nav li a:hover
 .solve h4
 {
     color: rgb(235, 90, 90);
+}
+
+
+
+section
+{
+    margin: 2em;
+    padding: 2em;
+}
+
+/* Collapsible content thanks to https://www.w3schools.com/howto/howto_js_collapsible.asp */
+.collapsible
+{
+    background-color: crimson;
+    color: darksalmon;
+    cursor: pointer;
+    padding: 2em;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 0.5em;
+}
+
+.active, .collapsible:hover
+{
+    background-color: purple;
+}
+
+.content
+{
+    padding: 0 2em;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
