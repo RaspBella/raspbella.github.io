@@ -62,13 +62,12 @@ secondary nav ul
 
 secondary nav li
 {
-    margin: 1em;
     padding: 1em;
 }
 
 secondary nav li a
 {
-    font-size: 4em;
+    font-size: 2em;
     color: blueviolet;
 }
 
