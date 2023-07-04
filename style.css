@@ -3,6 +3,11 @@
     cursor: url(:3.png), auto;
 }
 
+a
+{
+    cursor: url(:3c.png), auto;
+}
+
 body
 {
     padding: 1em;
