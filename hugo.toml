@@ -1,0 +1,4 @@
+baseURL = "https://bella.voklen.com/"
+languageCode = "en-gb"
+title = "RaspBella's Site"
+theme = "ananke"
