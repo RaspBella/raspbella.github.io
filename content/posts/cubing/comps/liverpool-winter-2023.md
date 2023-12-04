@@ -27,6 +27,7 @@ draft = false
 
 ---
 ### Also got myself the Dayan v2 mega after crushing my mega PR's
+![megasmile emoji](/megasmile.webp)
 
 [SQ1 PR Single]: /posts/cubing/sq1/pr/single
 [SQ1 PR Average]: /posts/cubing/sq1/pr/average
