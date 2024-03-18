@@ -1,4 +1,14 @@
 baseURL = "https://bella.voklen.com/"
 languageCode = "en-gb"
 title = "Bella's Site"
+
 theme = "ananke"
+
+[params.ananke_socials.github]
+name = "github"
+url = "https://github.com/RaspBella"
+
+[params.ananke_socials.mastodon]
+name = "mastodon"
+url = "https://tech.lgbt/@BellaC"
+rel = "me noopener"
