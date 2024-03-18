@@ -12,3 +12,7 @@ url = "https://github.com/RaspBella"
 name = "mastodon"
 url = "https://tech.lgbt/@BellaC"
 rel = "me noopener"
+
+[params.ananke_socials.youtube]
+name = "youtube"
+url = "https://www.youtube.com/@iusegnulinuxbtw"
