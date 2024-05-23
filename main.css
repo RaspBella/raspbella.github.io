@@ -46,10 +46,9 @@ div, table {
     margin: 1em;
 }
 
-table {
-    border-collapse: collapse;
-}
-
-td, th {
+table, th, td {
     border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+    text-align: left;
 }
