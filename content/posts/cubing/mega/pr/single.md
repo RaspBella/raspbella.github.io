@@ -17,4 +17,4 @@ draft = false
 #### R++ D++ R-- D++ R++ D++ R-- D++ R++ D++ U
 
 [Liverpool Winter 2023]: /posts/cubing/comps/liverpool-winter-2023
-[Megaminx PR Average]: https://worldcubeassociation.org/persons/2018CAMP17?event=minx
+[Megaminx PR Single]: https://worldcubeassociation.org/persons/2018CAMP17?event=minx
