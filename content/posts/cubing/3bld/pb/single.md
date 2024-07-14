@@ -13,3 +13,5 @@ draft = false
 
 ### Time List:
 ### 256. 1:25.44   L D B U R' F' R D B2 U' B2 L2 U' L2 D2 R2 F2 U B2 R B Rw'
+
+![Pictured](/3bld-pb-single.jpg)
