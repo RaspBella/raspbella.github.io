@@ -1,6 +1,6 @@
 +++
 title = 'Megaminx PR Average'
-date = 2023-12-04T20:03:35Z
+date = 2023-12-03T11:45:00Z
 draft = false
 +++
 

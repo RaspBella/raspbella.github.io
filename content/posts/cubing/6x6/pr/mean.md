@@ -1,6 +1,6 @@
 +++
 title = '6x6 PR Mean'
-date = 2023-12-04T19:19:24Z
+date = 2023-12-02T15:30:00Z
 draft = false
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = 'SQ1 PR Average'
-date = 2023-12-04T17:09:58Z
+date = 2023-12-02T15:00:00Z
 draft = false
 +++
 

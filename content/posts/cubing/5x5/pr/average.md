@@ -1,6 +1,6 @@
 +++
 title = '5x5 PR Average'
-date = 2023-12-04T19:28:06Z
+date = 2023-12-02T16:20:00Z
 draft = false
 +++
 
