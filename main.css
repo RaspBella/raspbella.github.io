@@ -42,6 +42,14 @@ ul.nav li.right {
     }
 }
 
-div {
+div, table {
     margin: 1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
 }
