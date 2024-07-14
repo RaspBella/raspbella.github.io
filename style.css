@@ -60,9 +60,15 @@ secondary nav ul
     background-color: cornflowerblue;
 }
 
+secondary nav li
+{
+    margin: 1em;
+    padding: 1em;
+}
+
 secondary nav li a
 {
-    font-size: 8em;
+    font-size: 4em;
     color: blueviolet;
 }
 
