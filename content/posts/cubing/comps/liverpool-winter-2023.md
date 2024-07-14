@@ -25,6 +25,9 @@ draft = false
 ### If I did not get a plus 2 in my 3x3 Average in finals I would've podiumed :O
 ![3x3 finals average](/3x3-final-liverpool-winter-2023.jpg)
 
+---
+### Also got myself the Dayan v2 mega after crushing my mega PR's
+
 [SQ1 PR Single]: /posts/cubing/sq1/pr/single
 [SQ1 PR Average]: /posts/cubing/sq1/pr/average
 [6x6 PR Mean]: /posts/cubing/6x6/pr/mean
