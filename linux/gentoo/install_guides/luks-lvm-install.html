@@ -16,20 +16,20 @@
             </nav>
         </section>
         <section>
-            <main>
-                <p style="font-size: 70px; text-align: center;">Stuff :3</p>
-            </main>
-        </section>
-        <section>
             <secondary>
                 <nav>
                     <ul>
                         <li><a href="..">..</a></li>
-                        <li><a href="#net">Network setup</a></li>
-                        <li><a href="#disk">Disk setup</a></li>
                     </ul>
                 </nav>
             </secondary>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#net">Network setup</a></li>
+                    <li><a href="#disk">Disk setup</a></li>                    </ul>
+            </nav>
         </section>
         <section id="net">
             <h2>Network setup</h2>
@@ -37,26 +37,45 @@
             There are 2 main ways of accessing the internet;</p>
             <button type="button" class="collapsible">Using Ethernet</button>
             <div class="content">
-                <p>Hopefully just works with the cable plugged in</p>
+                <p>Hopefully just works with the cable plugged in :p</p>
             </div>
             <button type="button" class="collapsible">Using WIFI</button>
             <div class="content">
-                <p>If you are in a GUI environment then you can simply connect to WIFI<br>
-                If you are using gentoo's live non-GUI iso you can use net-setup command<br>
-                If you are using another distro then maybe try iwctl command<br>
-                Otherwise idk</p>
+                <p>If you don't have a graphical way to connect to WIFI you can try the following<br>
+                <ul>
+                    <li>
+                        If you are using gentoo's live non-GUI iso you can use the net-setup command
+                    </li>
+                    <li>
+                        Any other distro could have any other WIFI tool(s) such as iwctl<br>
+                    </li>
+                </p>
             </div>
             </ul>
         </section>
         <section id="disk">
             <h2>Disk setup</h2>
-            <p>First you need to know the disk you want to install on<br>
-            Which could be named in the form of;</p>
-            <ul>
-                <li>/dev/sd&ltletter&gt</li>
-                <li>/dev/nvme&ltnumber&gtn&ltnumber&gt</li>
-                <li>/dev/mmcblk&ltnumber&gt</li>
-            </ul>
+            <section id="choosing-disk">
+                <h2>Choosing the install disk</h2>
+                <p>First you need to know the disk you want to install on<br><br>
+                I would recommend running the lsblk command to display all disks<br><br>
+                Then picking the disk you want to install on</p>
+                <button type="button" class="collapsible">Which could be named in the form of:</button>
+                <div class="content">
+                    <ul>
+                        <li>/dev/hd&ltletter&gt</li>
+                        <li>/dev/sd&ltletter&gt</li>
+                        <li>/dev/vd&ltletter&gt</li>
+                        <li>/dev/nvme&ltnumber&gtn&ltnumber&gt</li>
+                        <li>/dev/mmcblk&ltnumber&gt</li>
+                    </ul>
+                </div>
+                <button type="button" class="collapsible">For example</button>
+                <div class="content">
+                    <p>My main disk is a 465.8G NVMe drive and I have a few other drives plugged in</p>
+                    <img src="lsblk.png">
+                </div>
+            </section>
         </section> 
     </body>
     <script src="../../../collapsible.js"></script> <!-- Include script for collapsible buttons -->
