@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # To load past commits, please set `fetch-depth: 0`
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       # Cache output files in dist directory
       - name: Setup cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: test/dist
           key: ${{ runner.os }}-makefile-${{ github.sha }}-${{ hashFiles('**/makefile') }}
@@ -27,4 +27,4 @@ jobs:
         uses: flat35hd99/cache-make@v1.0.0
 
       - name: Build
-        run: make
+        run: make -C trans
