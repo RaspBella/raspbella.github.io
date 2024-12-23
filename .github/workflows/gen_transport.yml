@@ -9,6 +9,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: checkout repo
-              uses: actions/checkout@main
+              uses: actions/checkout@v3
+              
             - name: generate transport pages
               run: make -C trans
+
+            - name: deploy to github pages
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./trans
