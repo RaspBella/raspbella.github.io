@@ -13,10 +13,3 @@ jobs:
               
             - name: generate transport pages
               run: make -C trans
-
-            - name: deploy to github pages
-              uses: peaceiris/actions-gh-pages@v4
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_branch: gh-pages
-                  publish_dir: ./
