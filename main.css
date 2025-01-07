@@ -52,3 +52,8 @@ table, th, td {
     padding: 0.5em;
     text-align: left;
 }
+
+a {
+    color: black;
+    font-weight: bold;
+}
