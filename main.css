@@ -4,19 +4,19 @@ body {
 }
 
 ul.nav {
+    width: 100%;
     list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
     margin: 0;
     padding: 0;
+    background-color: #333;
 }
 
 ul.nav li {
-    float: left;
+    display: inline;
 }
 
 ul.nav li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 18px 20px;
