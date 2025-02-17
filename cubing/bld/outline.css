@@ -1,0 +1,15 @@
+.n {
+    border-top: 0.25em solid black;
+}
+
+.e {
+    border-right: 0.25em solid black;
+}
+
+.s {
+    border-bottom: 0.25em solid black;
+}
+
+.w {
+    border-left: 0.25em solid black;
+}
