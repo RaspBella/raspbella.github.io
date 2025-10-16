@@ -70,6 +70,12 @@ input[type=text], input[type=date] {
     margin: 1em 0;
 }
 
+li input[type=text] {
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 90%;
+}
+
 label {
     font-size: 1.5em;
 }
