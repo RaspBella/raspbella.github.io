@@ -70,10 +70,18 @@ input[type=text], input[type=date] {
     margin: 1em 0;
 }
 
-li input[type=text] {
+#query, #submit_query {
   padding: 0.5em;
   margin: 0.5em;
-  width: 90%;
+  float: right;
+}
+
+#query {
+  width: inherit;
+}
+
+#submit_query {
+  width: inherit;
 }
 
 label {
