@@ -1,2 +1,1 @@
-# [website](https://bella.voklen.com)
-## Thank you [Alex](https://github.com/Voklen) for the subdomain :3
+# My [website](https://www.raspbella.xyz) :3
