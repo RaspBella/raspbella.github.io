@@ -1,8 +1,10 @@
 .PHONY: default clean
 
 default: gen
-	mkdir -p ../docs/{linux,media}
-	mkdir -p ../docs/game/{steam,osu}
+	mkdir -p ../docs/linux
+	mkdir -p ../docs/media
+	mkdir -p ../docs/game/steam
+	mkdir -p ../docs/game/osu
 	./gen
 
 gen: gen.c
